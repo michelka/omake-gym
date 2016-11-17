@@ -1,0 +1,3 @@
+
+.DEFAULT: check
+.SUBDIRS: . 1 2

@@ -1,0 +1,15 @@
+*.omc
+*.byte
+*.opt
+*.cmx
+*.cmi
+*.cma
+*.cmxa
+*.cmxs
+*.cmo
+*.a
+*.o
+*.cmt
+*.cmti
+.omakedb
+.omakedb.lock

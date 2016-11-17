@@ -1,0 +1,5 @@
+
+.PHONY: check
+check: run.byte run.native
+  run.byte
+  run.native
