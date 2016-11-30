@@ -1,5 +1,9 @@
+BYTE_ENABLED = true
+NATIVE_ENABLED = true
+
+.DEFAULT: $(OCamlProgram run, hello_world)
 
 .PHONY: check
-check: run.byte run.native
-  run.byte
-  run.native
+check: run.opt run.run
+  ./run.opt
+  ./run.run

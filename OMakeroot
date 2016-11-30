@@ -1,3 +1,7 @@
+open build/OCaml
+
+DefineCommandVars()
+
+.SUBDIRS: . 1
 
 .DEFAULT: check
-.SUBDIRS: . 1 2
