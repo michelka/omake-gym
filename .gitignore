@@ -1,6 +1,5 @@
 *.omc
 *.byte
-*.run
 *.opt
 *.cmx
 *.cmi
